@@ -9,7 +9,7 @@ This is my personal portfolio website built using **React** and **Tailwind CSS**
 ## 📸 Screenshots
 
 Home Page
-![Home](./screenshots/home.png) 
+![Home](https://github.com/user-attachments/assets/4618c765-61a7-4fb7-9728-7a17aed2a997) 
 
 ## 🛠️ Built With
 
