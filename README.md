@@ -4,7 +4,7 @@ This is my personal portfolio website built using **React** and **Tailwind CSS**
 
 ## 🔗 Live Demo
 
-🌐 [View Live Portfolio]  (https://sampada-portfolio-website.netlify.app/)
+🌐 [View Live Portfolio]  (https://sampada-portfoliowebsite.netlify.app/)
 
 ## 📸 Screenshots
 
