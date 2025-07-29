@@ -361,7 +361,7 @@ export default function App() {
               </p>
 
               <a
-                href="/resume.pdf"
+                href="/Sampada_Ghadigaonkar_Resume.pdf"
                 download
                 className="inline-flex items-center gap-2 px-6 py-3 border-2 border-purple-600 dark:border-purple-400 rounded-lg text-purple-600 dark:text-purple-400 font-medium hover:bg-purple-600 hover:text-white dark:hover:bg-purple-400 dark:hover:text-black transition"
               >
