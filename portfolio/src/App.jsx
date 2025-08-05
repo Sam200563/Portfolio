@@ -166,6 +166,8 @@ export default function App() {
                 </h4>
                 <ul className="flex flex-wrap justify-center gap-4 text-sm">
                   {[
+                    "HTML",
+                    "CSS",
                     "React.js",
                     "Node.js",
                     "Express.js",
@@ -236,7 +238,42 @@ export default function App() {
           <section id="work" className="pt-4">
             <h3 className="text-4xl font-bold text-center mb-10">My Work</h3>
             <div className="grid md:grid-cols-3 gap-6">
-              {/* Project 1 */}
+              <div className="bg-gray-100 dark:bg-gray-800 p-5 rounded-lg shadow hover:shadow-lg transition">
+                <img
+                  src="/images/url-shortener.png"
+                  alt="URL Shortener"
+                  className="rounded mb-4"
+                />
+                <h4 className="text-xl font-semibold mb-2 text-center">
+                  URL Shortener Service
+                </h4>
+                <p className="text-gray-700 dark:text-gray-300 mb-2">
+                  A full-stack URL shortener application with premium plan
+                  support, QR code generation, click tracking, user
+                  authentication, and dashboard view.
+                </p>
+                <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">
+                  <span className="font-semibold">Tech Stack:</span> React, JWT
+                  Auth, Tailwind CSS, Node.js, MongoDB,Razorpay
+                </p>
+                <a
+                  href="https://github.com/Sam200563/URL-Shortener-Service"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-purple-600 dark:text-purple-400 hover:underline"
+                >
+                  View on GitHub
+                </a>
+                <br />
+                <a
+                  href="https://url-shortapp.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-purple-600 dark:text-purple-400 hover:underline"
+                >
+                  Live Link
+                </a>
+              </div>
               <div className="bg-gray-100 dark:bg-gray-800 p-5 rounded-lg shadow hover:shadow-lg transition">
                 <img
                   src="/images/yourtube-clone.png"
@@ -261,10 +298,18 @@ export default function App() {
                   className="text-purple-600 dark:text-purple-400 hover:underline"
                 >
                   View on GitHub
+                </a>                
+                <br />
+                <a
+                  href="https://yourtube-project-clone.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-purple-600 dark:text-purple-400 hover:underline"
+                >
+                  Live Link
                 </a>
               </div>
 
-              {/* Project 2 */}
               <div className="bg-gray-100 dark:bg-gray-800 p-5 rounded-lg shadow hover:shadow-lg transition">
                 <img
                   src="/images/roadtrip-planner.png"
@@ -292,7 +337,6 @@ export default function App() {
                 </a>
               </div>
 
-              {/* Project 3 */}
               <div className="bg-gray-100 dark:bg-gray-800 p-5 rounded-lg shadow hover:shadow-lg transition">
                 <img
                   src="/images/incredible-india.png"
@@ -327,7 +371,7 @@ export default function App() {
             <h3 className="text-4xl font-bold text-center mb-10">Experience</h3>
             <div className="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow max-w-3xl mx-auto">
               <h4 className="text-2xl font-semibold mb-2">
-                Frontend Developer Intern
+                Web Developer Intern
               </h4>
               <p className="text-purple-600 dark:text-purple-400 font-medium">
                 NullClass • Jun 2025 - Aug 2025
@@ -338,8 +382,8 @@ export default function App() {
                   custom player.
                 </li>
                 <li>
-                  Developed a dynamic RoadTrip planner using MERN, Tailwind, and
-                  HERE API.
+                  Enhanced performance with Redux-based state management and
+                  optimized route-level rendering to reduce load times.
                 </li>
                 <li>
                   Implemented secure authentication, responsive design, and
@@ -347,7 +391,6 @@ export default function App() {
                 </li>
               </ul>
             </div>
-            
           </section>
 
           {/* Resume Section */}
@@ -392,10 +435,11 @@ export default function App() {
 
             <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg">
               {/* Contact Form */}
-              <form 
-              action="https://formsubmit.co/thesampadag@gmail.com"
-              method="POST"
-              className="space-y-6">
+              <form
+                action="https://formsubmit.co/thesampadag@gmail.com"
+                method="POST"
+                className="space-y-6"
+              >
                 <div>
                   <label className="block mb-1 font-semibold" htmlFor="name">
                     Name
